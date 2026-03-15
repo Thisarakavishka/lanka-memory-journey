@@ -16,6 +16,16 @@ export default function Message() {
         sister. May your future be filled with success, happiness, and beautiful
         adventures. Sri Lanka will always remember you.
       </motion.p>
+
+      {/* Signature line */}
+      <motion.p
+        initial={{ opacity: 0, y: 10 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ delay: 0.6, duration: 1 }}
+        className="mt-10 text-xl font-semibold text-white"
+      >
+        Your little brother Avishka ❤️
+      </motion.p>
     </section>
   );
 }
